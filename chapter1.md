@@ -48,4 +48,6 @@ con => copy con newfile.txt
 
 ## 管線
 * 命令1 | 命令2
- 
+
+##
+* 參考網址 http://steve-jansen.github.io/guides/windows-batch-scripting/index.html
