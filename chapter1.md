@@ -13,8 +13,11 @@ cd /d
 cd "\winnt\profiles\username\programs\start menu"
 
 ## 變數設定
-* set var=value
 * set
+* set var=value
+* set var=
+* set /a var+=3
+* set /p var=Please input your age:
 * cmd /c
 
 ## 顯示
@@ -34,6 +37,11 @@ cd "\winnt\profiles\username\programs\start menu"
 * 從批次檔中呼叫其他程式 => call xxx
 * 呼叫副程式 => call :標籤 參數
 * 擴充支援 => call /? (http://inpega.blogspot.tw/2012/07/cd-dp0.html)
+
+## 傳回值
+* if errorlevel 1
+* if %errorlevel%==1
+* 命令1失敗才執行命令2 => 命令1 || 命令2
 
 ## 轉向
 * 命令 > 檔案名稱
