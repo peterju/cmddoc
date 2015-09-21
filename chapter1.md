@@ -9,16 +9,16 @@
 * :
 
 ## 切換目錄
-cd /d
-cd "\winnt\profiles\username\programs\start menu"
+* d: && cd /d c:\windows\system32
+* cd "\winnt\profiles\username\programs\start menu"
 
 ## 變數設定
-* set
-* set var=value
-* set var=
-* set /a var+=3
-* set /p var=Please input your age:
-* cmd /c
+* 觀察環境變數 => set
+* 設定環境變數 => set var=value
+* 取消環境變數 => set var=
+* 變數的運算 => set /a var+=3
+* 輸入時的字串提示 => set /p var=Please input your age:
+* 建立新的shell執行指令後返回 => cmd /c 命令
 
 ## 顯示
 * 停止回應 => echo off
