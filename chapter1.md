@@ -26,7 +26,7 @@ cd "\winnt\profiles\username\programs\start menu"
 ```
 
 ## 變數設定
-Windows作業系統環境的變數都是全域變數，我們可以透過 set 指令觀察。
+Windows作業系統環境的變數都是全域變數，我們可以透過下面的指令觀察有哪些環境變數。
 ```
 set
 ```
@@ -39,6 +39,8 @@ echo %myname%
 * 取消環境變數 => set var=
 * 變數的運算 => set /a var+=3
 * 輸入時的字串提示 => set /p var=Please input your age:
+
+其他的進階用法，請輸入 set /? 來獲得。
 
 因為全域變數會交互影響，因此要模擬區域變數或指令執行之後不影響目前環境，我們會呼叫一個新的 cmd 來執行一次性指令之後返回。
 
@@ -54,6 +56,8 @@ prompt Level3$g
 exit
 exit
 ```
+* 更改提示字元用法 => prompt /?
+
 
 ## 顯示
 * 停止回應 => echo off
