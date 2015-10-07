@@ -1,21 +1,29 @@
 # 批次檔介紹
-將命令提示字元中輸入的指令集結起來，輸入在文字檔中，用以
+將命令提示字元中輸入的指令集結起來，輸入在文字檔中，用以批次執行，稱之為批次檔。
 
 批次檔的編寫應盡量使用ANSI的編碼方式，建議使用 [NotePad++](https://notepad-plus-plus.org/) 之類的有顏色與語法提示的純文字編輯器編寫。
 
+學習批次檔等同於學習一個作業系統在命令列環境(shell)的用法，Windows環境目前有很多Linux的影子，例如導向、管線、指令與檔案名稱補齊...等，理解之後未來接觸Linux也有很大的幫助。
 
 
 ## 副檔名
+預設有下面這2種，純DOS時代使用.bat，在Windows時代則建議改用.cmd
 * bat
 * cmd
 
 ## 註解方式
+標準是使用 rem，但通常會使用2個以上的冒號來當註解符號，畢竟字數比較少嘛
 * rem
-* :
+* ::
 
 ## 切換目錄
-* d: && cd /d c:\windows\system32
-* cd "\winnt\profiles\username\programs\start menu"
+change directory的縮寫，注意絕對路徑與相對路徑的差別，鍵入cd /?可得到更多的說明
+```
+d: && cd /d c:\windows\system32
+```
+```
+cd "\winnt\profiles\username\programs\start menu"
+```
 
 ## 變數設定
 * 觀察環境變數 => set
