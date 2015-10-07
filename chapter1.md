@@ -1,5 +1,5 @@
 # 批次檔介紹
-批次檔的編寫都是純文字檔，盡量使用ANSI的編碼方式，建議使用 [NotePad++](https://notepad-plus-plus.org/) 之類的有語法提示的純文字編輯器編寫
+批次檔的編寫應盡量使用ANSI的編碼方式，建議使用 [NotePad++](https://notepad-plus-plus.org/) 之類的有顏色與語法提示的純文字編輯器編寫
 
 ## 副檔名
 * bat
