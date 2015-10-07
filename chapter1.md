@@ -16,7 +16,7 @@
 * rem
 * ::
 
-## 切換目錄
+## 切換目錄：CD
 change directory的縮寫，注意絕對路徑與相對路徑的差別，鍵入cd /?可得到更多的說明
 ```
 d: && cd /d c:\windows\system32
